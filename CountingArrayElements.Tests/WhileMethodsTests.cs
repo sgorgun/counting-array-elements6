@@ -18,7 +18,7 @@ namespace CountingArrayElements.Tests
         {
             new object[] { new[] { null, new object(), new object(), null, null, new object(), null }, 4 },
             new object[] { new[] { new object(), new object(), new object(), new object() }, 0 },
-            new object[] { new object[] { null, null, null, null, null }, 5 },
+            new object[] { new object?[] { null, null, null, null, null }, 5 },
             new object[] { new[] { new object(), new object(), null, new object(), new object() }, 1 },
         };
 

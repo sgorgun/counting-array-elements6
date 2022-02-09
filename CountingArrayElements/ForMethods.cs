@@ -9,7 +9,7 @@ namespace CountingArrayElements
         /// </summary>
         /// <param name="arrayToSearch">An <see cref="Array"/> to search.</param>
         /// <returns>The number of occurrences of negative integers.</returns>
-        public static int GetNegativeIntegerCount(int[] arrayToSearch)
+        public static int GetNegativeIntegerCount(int[]? arrayToSearch)
         {
             // TODO #1. Analyze the implementation of "GetNegativeIntegerCountRecursive" methods, and implement the method using the "for" loop statement.
             throw new NotImplementedException();
@@ -20,7 +20,7 @@ namespace CountingArrayElements
         /// </summary>
         /// <param name="arrayToSearch">An <see cref="Array"/> to search.</param>
         /// <returns>The number of occurrences of even numbers.</returns>
-        public static int GetEvenNumberCount(float[] arrayToSearch)
+        public static int GetEvenNumberCount(float[]? arrayToSearch)
         {
             // TODO #2. Analyze the implementation of "GetEvenNumberCountRecursive" methods, and implement the method using the "for" loop statement.
             throw new NotImplementedException();
@@ -31,7 +31,7 @@ namespace CountingArrayElements
         /// </summary>
         /// <param name="arrayToSearch">An <see cref="Array"/> to search.</param>
         /// <returns>The number of occurrences of bytes with enabled bits in high nibble.</returns>
-        public static int GetByteWithBitsInHighNibbleCount(byte[] arrayToSearch)
+        public static int GetByteWithBitsInHighNibbleCount(byte[]? arrayToSearch)
         {
             // TODO #3. Analyze the implementation of "GetByteWithBitsInHighNibbleCountRecursive" methods, and implement the method using the "for" loop statement.
             throw new NotImplementedException();
@@ -42,7 +42,7 @@ namespace CountingArrayElements
         /// </summary>
         /// <param name="arrayToSearch">An <see cref="Array"/> to search.</param>
         /// <returns>The number of occurrences of negative integers.</returns>
-        public static int GetNegativeIntegerCountRecursive(int[] arrayToSearch)
+        public static int GetNegativeIntegerCountRecursive(int[]? arrayToSearch)
         {
             if (arrayToSearch is null)
             {
@@ -57,7 +57,7 @@ namespace CountingArrayElements
         /// </summary>
         /// <param name="arrayToSearch">An <see cref="Array"/> to search.</param>
         /// <returns>The number of occurrences of even numbers.</returns>
-        public static int GetEvenNumberCountRecursive(float[] arrayToSearch)
+        public static int GetEvenNumberCountRecursive(float[]? arrayToSearch)
         {
             if (arrayToSearch is null)
             {
@@ -78,7 +78,7 @@ namespace CountingArrayElements
         /// </summary>
         /// <param name="arrayToSearch">An <see cref="Array"/> to search.</param>
         /// <returns>The number of occurrences of bytes with enabled bits in high nibble.</returns>
-        public static int GetByteWithBitsInHighNibbleCountRecursive(byte[] arrayToSearch)
+        public static int GetByteWithBitsInHighNibbleCountRecursive(byte[]? arrayToSearch)
         {
             if (arrayToSearch is null)
             {

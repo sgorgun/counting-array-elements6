@@ -9,7 +9,7 @@ namespace CountingArrayElements
         /// </summary>
         /// <param name="arrayToSearch">An <see cref="Array"/> to search.</param>
         /// <returns>The number of occurrences of empty strings.</returns>
-        public static int GetEmptyStringCount(string[] arrayToSearch)
+        public static int GetEmptyStringCount(string[]? arrayToSearch)
         {
             // TODO #4. Analyze the implementation of "GetEmptyStringCountRecursive" method, and implement the method using the "while" loop statement.
             throw new NotImplementedException();
@@ -20,7 +20,7 @@ namespace CountingArrayElements
         /// </summary>
         /// <param name="arrayToSearch">An <see cref="Array"/> to search.</param>
         /// <returns>The number of occurrences of long integers with minimum and maximum values.</returns>
-        public static int GetMinOrMaxLongCount(long[] arrayToSearch)
+        public static int GetMinOrMaxLongCount(long[]? arrayToSearch)
         {
             // TODO #5. Analyze the implementation of "GetMinOrMaxLongCount" method, and implement the method using the "while" loop statement.
             throw new NotImplementedException();
@@ -31,7 +31,7 @@ namespace CountingArrayElements
         /// </summary>
         /// <param name="arrayToSearch">An <see cref="Array"/> to search.</param>
         /// <returns>The number of occurrences of null values.</returns>
-        public static int GetNullObjectCount(object[] arrayToSearch)
+        public static int GetNullObjectCount(object[]? arrayToSearch)
         {
             // TODO #6. Analyze the implementation of "GetNullObjectCountRecursive" method, and implement the method using the "while" loop statement.
             throw new NotImplementedException();
@@ -42,7 +42,7 @@ namespace CountingArrayElements
         /// </summary>
         /// <param name="arrayToSearch">An <see cref="Array"/> to search.</param>
         /// <returns>The number of occurrences of empty strings.</returns>
-        public static int GetEmptyStringCountRecursive(string[] arrayToSearch)
+        public static int GetEmptyStringCountRecursive(string[]? arrayToSearch)
         {
             if (arrayToSearch is null)
             {
@@ -64,7 +64,7 @@ namespace CountingArrayElements
         /// </summary>
         /// <param name="arrayToSearch">An <see cref="Array"/> to search.</param>
         /// <returns>The number of occurrences of long integers with minimum and maximum values.</returns>
-        public static int GetMinOrMaxLongCountRecursive(long[] arrayToSearch)
+        public static int GetMinOrMaxLongCountRecursive(long[]? arrayToSearch)
         {
             if (arrayToSearch is null)
             {
@@ -87,7 +87,7 @@ namespace CountingArrayElements
         /// </summary>
         /// <param name="arrayToSearch">An <see cref="Array"/> to search.</param>
         /// <returns>The number of occurrences of null values.</returns>
-        public static int GetNullObjectCountRecursive(object[] arrayToSearch)
+        public static int GetNullObjectCountRecursive(object[]? arrayToSearch)
         {
             if (arrayToSearch is null)
             {
