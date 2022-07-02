@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace CountingArrayElements
 {
@@ -22,7 +22,7 @@ namespace CountingArrayElements
         /// <returns>The number of occurrences of long integers with minimum and maximum values.</returns>
         public static int GetMinOrMaxLongCount(long[]? arrayToSearch)
         {
-            // TODO #5. Analyze the implementation of "GetMinOrMaxLongCount" method, and implement the method using the "while" loop statement.
+            // TODO #5. Analyze the implementation of "GetMinOrMaxLongCountRecursive" method, and implement the method using the "while" loop statement.
             throw new NotImplementedException();
         }
 
