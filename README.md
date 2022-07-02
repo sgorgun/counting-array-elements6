@@ -2,7 +2,7 @@
 
 Beginner level task for practicing loops, branches and arrays.
 
-The task is to implement six methods using "for", "while" and "do" statements.
+The task is to implement nine methods using "for", "while" and "do" statements.
 
 
 ## Task Description
