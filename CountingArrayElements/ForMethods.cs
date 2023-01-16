@@ -9,7 +9,7 @@ namespace CountingArrayElements
         /// </summary>
         /// <param name="arrayToSearch">An <see cref="Array"/> to search.</param>
         /// <returns>The number of occurrences of negative integers.</returns>
-        public static int GetNegativeIntegerCount(int[]? arrayToSearch, Exception argumentNullException)
+        public static int GetNegativeIntegerCount(int[]? arrayToSearch)
         {
             int count = 0;
 
